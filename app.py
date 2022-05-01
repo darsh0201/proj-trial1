@@ -16,7 +16,7 @@ app = flask.Flask(__name__, template_folder='templates')
 def main():
     if flask.request.method == 'GET':
         # Just render the initial form, to get input
-        return(flask.render_template('main.html'))
+        return(flask.render_template('main.php'))
 
     if flask.request.method == 'POST':
         # Extract the input
