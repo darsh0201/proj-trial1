@@ -27,7 +27,10 @@ def main():
             sex = 0
         bmi = flask.request.form['bmi']
         children = flask.request.form['children']
-        smoker = flask.request.form['smoker']
+        if flask.request.form['smoker'] == 'yes':
+            smoker = 1
+        else:
+            smoker = 0
 
         # Make DataFrame for model
 

@@ -35,12 +35,12 @@
           <small>Error message</small>
         </div>
         <div class="form-control">
-          Sex :
+          Sex:
           <input
             id="sex"
             name="sex"
             type="text"
-            placeholder="0 for Female, 1 for Male"
+            placeholder="Enter lowercase male or female "
             required
           />
           <br />
@@ -74,12 +74,12 @@
           <small>Error message</small>
         </div>
         <div class="form-control">
-          Smoker (0 = No, 1 = Yes):
+          Smoker:
           <input
             id="smoker"
             name="smoker"
             type="number"
-            placeholder="Input if smoker or not"
+            placeholder="Input lowercase yes or no"
             required
           />
           <br />
