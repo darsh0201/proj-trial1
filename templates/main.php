@@ -78,7 +78,7 @@
           <input
             id="smoker"
             name="smoker"
-            type="number"
+            type="text"
             placeholder="Input lowercase yes or no"
             required
           />
