@@ -35,11 +35,11 @@
           <small>Error message</small>
         </div>
         <div class="form-control">
-          Sex (0 = female, 1 = male):
+          Sex :
           <input
             id="sex"
             name="sex"
-            type="number"
+            type="text"
             placeholder="0 for Female, 1 for Male"
             required
           />

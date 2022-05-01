@@ -21,7 +21,10 @@ def main():
     if flask.request.method == 'POST':
         # Extract the input
         age = flask.request.form['age']
-        sex = flask.request.form['sex']
+        if flask.request.form['sex'] == 'male':
+            sex = 1
+        else:
+            sex = 0
         bmi = flask.request.form['bmi']
         children = flask.request.form['children']
         smoker = flask.request.form['smoker']
