@@ -39,7 +39,7 @@ def main():
 
         # Render the form again, but add in the prediction and remind user
         # of the values they input before
-        return flask.render_template('main.html',
+        return flask.render_template('main.php',
                                      original_input={'Age': age,
                                                      'Sex': sex,
                                                      'BMI': bmi,
